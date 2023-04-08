@@ -9,7 +9,7 @@ let baseURL;
 if (NODE_ENV === "development") {
   baseURL = "http://localhost:8080/api/v1/";
 } else {
-  baseURL = "https://african3.com/api/v1/";
+  baseURL = "https://magmel-backend.onrender.com/api/v1/";
 }
 
 const axiosInstance = axios.create({
