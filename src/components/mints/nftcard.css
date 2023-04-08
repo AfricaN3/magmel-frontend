@@ -1,0 +1,13 @@
+.item {
+  background-color: #1a1824;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+}
+
+.nft-id {
+  color: #ccc;
+  font-weight: 100;
+  float: right;
+}

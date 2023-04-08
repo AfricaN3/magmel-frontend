@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+/************ Custom Font ************/
+
+@font-face {
+  font-family: Android101;
+  src: url("./assets/font/Android101-El3e.ttf");
+  font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "revicons";
+  fallback: fallback;
+  src: url("./assets/font/revicons.woff") format("woff"),
+    url("./assets/font/revicons.ttf") format("ttf"),
+    url("./assets/font/revicons.eot") format("ttf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #1a1824;
+  color: #fa5f00;
+  font-family: "Android101", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+@media (min-width: 1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p.success {
+  color: green;
+}
+
+p.danger {
+  color: red;
+}
+
+.wallet-adapter-button {
+  background-color: #1a1824;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Inter", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  transition: 0.3s ease-in-out;
 }

@@ -1,0 +1,52 @@
+.form__input input,
+.form__input textarea {
+  width: 100%;
+  padding: 7px 25px;
+  color: #fff;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid rgba(221, 221, 221, 0.171);
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__input {
+  margin-bottom: 15px;
+}
+
+.form__input label {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.suprise__btn {
+  padding: 8px 25px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(61, 3, 116, 0.5) -5.91%,
+    rgba(28, 1, 53, 0.5) 111.58%
+  );
+  color: #fff;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.submit__btn {
+  padding: 8px 25px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(61, 3, 116, 0.5) -5.91%,
+    rgba(28, 1, 53, 0.5) 111.58%
+  );
+  color: #fff;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

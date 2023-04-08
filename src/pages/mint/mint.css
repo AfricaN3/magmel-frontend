@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Centra;
+  src: url("../../assets/font/CentraNo2-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Centra;
+  src: url("../../assets/font/CentraNo2-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Centra;
+  src: url("../../assets/font/CentraNo2-Book.ttf");
+  font-weight: 400;
+}
+
+.mint {
+  margin-top: 0;
+  font-family: "Centra", sans-serif !important;
+  padding: 260px 0 100px 0;
+  background-image: url("../../assets/images/bg.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .create__item {
+    margin-top: 15px;
+  }
+}
+
+.submit__btn {
+  padding: 8px 25px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(61, 3, 116, 0.5) -5.91%,
+    rgba(28, 1, 53, 0.5) 111.58%
+  );
+  color: #fff;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.loader {
+  margin-left: 90px;
+}
+
+.summary-btn-label {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.summary-btn {
+  margin-left: 10px;
+  /* display: contents; */
+}
